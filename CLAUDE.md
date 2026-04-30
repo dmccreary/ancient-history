@@ -8,6 +8,37 @@ This is an undergraduate intelligent textbook covering ancient world history fro
 
 A core editorial commitment of this textbook is to **incorporate archaeological, paleoanthropological, and paleogenomic findings published in the last fifteen years as first-class concept nodes**, not as footnotes to canonical pre-2010 textbook content. When generating chapter content, glossary terms, quizzes, or supplementary material, default to the current evidence base (Göbekli Tepe and the Tas Tepeler complex, Lomekwi 3 stone tools, Sahelanthropus and Ardipithecus, Homo Naledi, the Jebel Irhoud finds, Doggerland, Madjedbebe, the White Sands footprints, Sulawesi cave art, Sanxingdui, Liangzhu Culture, Caral-Supe, Cahokia, Chaco Canyon, Aguada Fenix, the ancient-DNA understanding of Yamnaya migration and Proto-Indo-European, the 4.2 ka Event, the Late Antique Little Ice Age, the Justinianic Plague, etc.) rather than the 1990s textbook narrative.
 
+## Tone and Voice for Chapter Content
+
+This is a textbook, but it is **not** a stuffy one. Default to a tone that is **light, warm, optimistic, and quietly funny**. We are not taking ourselves too seriously. The goal is for a student to come away from a section grinning, not yawning.
+
+### Posture
+
+- Treat the reader as a smart friend, not a captive audience.
+- Be **playful** with framings, section openers, analogies, and asides — but the *evidence and dates* underneath stay rigorous.
+- A few well-placed jokes per chapter are encouraged. Dry, observational, slightly nerdy humor lands best (think: pointing out that bronze-age accountants invented spreadsheets in clay, or that the Late Bronze Age Collapse was, in modern terms, a really bad supply-chain outage). Avoid pun-overload, slapstick, or jokes that punch down at ancient peoples.
+- Aim for one chuckle and one "huh, I never thought of it that way" per major section.
+- Wonder is a tool. When something is genuinely amazing — that 45,500-year-old Sulawesi pig painting, that Sumerian schoolboy's homework tablet, that Polynesian navigators crossed thousands of km of open ocean by reading swells — *say so*. Earned awe, not breathless hype.
+
+### The Superpowers Framing
+
+Frame the entire textbook as **superpower acquisition**. Studying ancient history doesn't just fill your head with names and dates — it gives you concrete cognitive abilities you can use the rest of your life. Return to this framing in chapter openers, capstones, and Chronos admonitions. The four superpowers:
+
+1. **Critical thinking** — distinguishing claims from evidence, weighing alternative interpretations, recognizing when a confident-sounding source is actually thin on data.
+2. **Systems thinking** — seeing how environment, technology, religion, trade, and politics interact and produce cascading change rather than treating events as isolated.
+3. **Positive skepticism** — the *constructive* kind: not cynicism, but the habit of asking "how do we know this?" before accepting or sharing a claim. Ancient historians do this for a living because their evidence is fragmentary; the same muscle works on social-media posts.
+4. **Bias and misinformation detection** — recognizing point-of-view, agenda, and selective framing in sources (ancient *and* modern), and resisting both viral falsehoods and overconfident "well-actually" corrections.
+
+When relevant, point out that the analytical move a student just learned (e.g., "compare two primary sources that disagree") is the same move that helps them spot a misleading screenshot in their feed. Don't preach it — *show* it.
+
+### Style guardrails (still apply)
+
+- Stay accurate. Jokes never override evidence; if a punchline requires distorting the historical record, drop the punchline.
+- Don't be flippant about suffering (slavery, plague, conquest, genocide). Warmth is fine; mockery of victims is not.
+- No modern political point-scoring.
+- No contemporary slang that will date the textbook in two years ("vibes," "it's giving," "based," etc.). Timeless wit ages better.
+- Optimism is the default emotional register, but it is *earned* optimism — acknowledge the dark parts honestly, then point out what humans have figured out, recovered from, or built anew.
+
 ## Learning Mascot: Chronos the Tortoise
 
 ### Character Overview
@@ -20,12 +51,15 @@ A core editorial commitment of this textbook is to **incorporate archaeological,
 
 ### Voice Characteristics
 
-- Speaks with the calm authority of an experienced teacher who has thought about the long arc of history many times before
+- Speaks with the calm authority of an experienced teacher who has thought about the long arc of history many times before — and who genuinely enjoys it
+- Warm, encouraging, and quietly funny. Chronos is the mascot equivalent of a beloved professor whose lectures students don't skip because the asides are too good to miss
 - Uses concrete, evidence-grounded examples — never vague exhortations
-- Patient by default; does not dramatize or scold
+- Patient by default; does not scold. *May* dramatize gently for emphasis when the moment earns it ("Pull back the lens for a moment — what we are about to see took 13.7 billion years of setup")
 - Connects local detail to the longer historical arc when it would help a student
-- Signature phrases: *"The long view starts here."*, *"Pull back the lens for a moment."*, *"Notice what we know now that earlier textbooks didn't."*
-- Avoid: exclamation overuse, baby-talk, modern slang, treating ancient people condescendingly
+- Occasionally winks at the modern reader: a wry one-liner, a knowing comparison ("Yes, that really is an Akkadian customer-complaint tablet about a bad copper shipment"), a moment of earned awe
+- Reinforces the **superpowers framing** — reminding students that the analytical move they just practiced works on social-media claims too
+- Signature phrases: *"The long view starts here."*, *"Pull back the lens for a moment."*, *"Notice what we know now that earlier textbooks didn't."*, *"This is one of your superpowers."*
+- Avoid: exclamation-mark spam, baby-talk, contemporary slang, treating ancient people condescendingly, mocking victims of conquest or disaster
 
 ### Mascot Admonition Format
 
@@ -85,7 +119,7 @@ The `src` path is **relative to the rendered page URL**, not the markdown file. 
 - Place mascot admonitions back-to-back
 - Change Chronos's personality, species, or voice across chapters
 - Use Chronos for decorative purposes only
-- Anthropomorphize beyond gentle scholarly warmth (no slapstick, no contemporary slang)
+- Anthropomorphize beyond gentle scholarly warmth (no slapstick, no contemporary slang) — Chronos can be witty, but he is still a tortoise of letters, not a stand-up comedian
 
 ## Style Conventions for This Textbook
 

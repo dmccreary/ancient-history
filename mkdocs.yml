@@ -8,14 +8,24 @@ nav:
   - Home: index.md
   - Course Description: course-description.md
 
-  # Chapters will be added here once the /book-chapter-generator skill has run.
-  # Example structure:
-  # - Chapters:
-  #   - Overview: chapters/index.md
-  #   - 1-Big Era 1 - Cosmic and Biological Origins:
-  #     - chapters/01-cosmic-and-biological-origins/index.md
-  #     - Quiz: chapters/01-cosmic-and-biological-origins/quiz.md
-  #     - References: chapters/01-cosmic-and-biological-origins/references.md
+  - Chapters:
+    - List of Chapters: chapters/index.md
+    - 1. Foundations of Historical Thinking: chapters/01-foundations-of-historical-thinking/index.md
+    - 2. Cosmic and Biological Origins: chapters/02-cosmic-and-biological-origins/index.md
+    - 3. Hominin Evolution and the Genus Homo: chapters/03-hominin-evolution-and-genus-homo/index.md
+    - 4. Paleolithic Migrations and Ice-Age Worlds: chapters/04-paleolithic-migrations-and-ice-age-worlds/index.md
+    - 5. Paleolithic Symbolic Culture and Other Hominins: chapters/05-paleolithic-symbolic-culture-and-other-hominins/index.md
+    - 6. The Neolithic Revolution: chapters/06-the-neolithic-revolution/index.md
+    - 7. Bronze Age Origins, Mesopotamia, and Egypt: chapters/07-bronze-age-mesopotamia-and-egypt/index.md
+    - 8. Bronze Age Asia, the Aegean, and the Collapse: chapters/08-bronze-age-asia-aegean-and-collapse/index.md
+    - 9. Iron Age and the Classical Greco-Roman World: chapters/09-iron-age-and-greco-roman-world/index.md
+    - 10. The Axial Age and World Religions: chapters/10-the-axial-age-and-world-religions/index.md
+    - 11. Classical Empires of Asia and Imperial Networks: chapters/11-classical-empires-of-asia/index.md
+    - 12. Late Antiquity and the Byzantine World: chapters/12-late-antiquity-and-byzantium/index.md
+    - 13. The Rise of Islam: chapters/13-the-rise-of-islam/index.md
+    - 14. Tang and Song China and Carolingian Europe: chapters/14-tang-song-china-and-carolingian-europe/index.md
+    - 15. Afro-Eurasian Networks: chapters/15-afro-eurasian-networks/index.md
+    - 16. Pre-Columbian Americas and the Eve of Integration: chapters/16-pre-columbian-americas-and-eve-of-integration/index.md
 
   - Learning Graph:
     - Introduction: learning-graph/index.md
@@ -98,11 +108,13 @@ markdown_extensions:
       generic: true
 
 extra_css:
+  - css/extra.css
   - css/mascot.css
 
-# Add these once the asset files exist:
-# extra_javascript:
-#   - js/extra.js
+extra_javascript:
+  - js/extra.js
+
+# Add these once the corresponding markdown extension is enabled:
 #   - js/mathjax-config.js
 #   - https://unpkg.com/mathjax@3/es5/tex-chtml.js
 
