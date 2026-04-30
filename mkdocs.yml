@@ -39,9 +39,10 @@ nav:
   - MicroSims:
     - Learning Graph Viewer: sims/graph-viewer/index.md
 
+  - Glossary: glossary.md
+
   # Add these once the corresponding files exist:
   # - About This Textbook: about.md
-  # - Glossary: glossary.md
   # - FAQ: faq.md
   # - Teacher's Guide: teachers-guide/index.md
   # - License: license.md
