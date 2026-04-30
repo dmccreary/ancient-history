@@ -113,10 +113,8 @@ extra_css:
 
 extra_javascript:
   - js/extra.js
-
-# Add these once the corresponding markdown extension is enabled:
-#   - js/mathjax-config.js
-#   - https://unpkg.com/mathjax@3/es5/tex-chtml.js
+  - js/mathjax-config.js
+  - https://unpkg.com/mathjax@3/es5/tex-chtml.js
 
 watch:
   - docs
