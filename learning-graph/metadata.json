@@ -1,0 +1,10 @@
+{
+  "title": "Ancient History: Origins to 1200 CE",
+  "description": "An undergraduate survey of human experience from the cosmic and biological context of human origins through the maturation of post-classical civilizations, ending at approximately 1200 CE. Organized around the UCLA 'World History for Us All' Big Era framework (Eras 1-5) and three thematic axes (Humans and the Environment, Humans and Other Humans, Humans and Ideas), the course explicitly incorporates archaeological, paleoanthropological, and paleogenomic findings published in the last fifteen years as first-class concept nodes.",
+  "creator": "Dan McCreary",
+  "date": "2026-04-29",
+  "version": "1.0",
+  "format": "Learning Graph JSON v1.0",
+  "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+  "license": "CC BY-NC-SA 4.0 DEED"
+}
