@@ -1,0 +1,3528 @@
+{
+  "metadata": {
+    "title": "Ancient History: Origins to 1200 CE",
+    "description": "An undergraduate survey of human experience from the cosmic and biological context of human origins through the maturation of post-classical civilizations, ending at approximately 1200 CE. Organized around the UCLA 'World History for Us All' Big Era framework (Eras 1-5) and three thematic axes (Humans and the Environment, Humans and Other Humans, Humans and Ideas), the course explicitly incorporates archaeological, paleoanthropological, and paleogenomic findings published in the last fifteen years as first-class concept nodes.",
+    "creator": "Dan McCreary",
+    "date": "2026-04-29",
+    "version": "1.0",
+    "format": "Learning Graph JSON v1.0",
+    "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+    "license": "CC BY-NC-SA 4.0 DEED"
+  },
+  "groups": {
+    "METH": {
+      "classifierName": "Methodology and Historical Skills",
+      "color": "SteelBlue",
+      "font": {
+        "color": "white"
+      }
+    },
+    "THEME": {
+      "classifierName": "Thematic Axes",
+      "color": "DarkSlateBlue",
+      "font": {
+        "color": "white"
+      }
+    },
+    "COSMIC": {
+      "classifierName": "Cosmic and Biological Origins",
+      "color": "Indigo",
+      "font": {
+        "color": "white"
+      }
+    },
+    "HOMIN": {
+      "classifierName": "Hominin Evolution",
+      "color": "DarkOrchid",
+      "font": {
+        "color": "white"
+      }
+    },
+    "PALEO": {
+      "classifierName": "Paleolithic Humanity",
+      "color": "MediumPurple",
+      "font": {
+        "color": "white"
+      }
+    },
+    "NEO": {
+      "classifierName": "Neolithic Revolution",
+      "color": "OliveDrab",
+      "font": {
+        "color": "white"
+      }
+    },
+    "BRONZE": {
+      "classifierName": "Bronze Age and Primary Civilizations",
+      "color": "DarkGoldenrod",
+      "font": {
+        "color": "white"
+      }
+    },
+    "CLASS": {
+      "classifierName": "Classical Empires",
+      "color": "Crimson",
+      "font": {
+        "color": "white"
+      }
+    },
+    "AXIAL": {
+      "classifierName": "Axial Age and World Religions",
+      "color": "DeepPink",
+      "font": {
+        "color": "white"
+      }
+    },
+    "POSTC": {
+      "classifierName": "Post-Classical World",
+      "color": "Teal",
+      "font": {
+        "color": "white"
+      }
+    },
+    "ISLAM": {
+      "classifierName": "Islamic Civilization",
+      "color": "DarkGreen",
+      "font": {
+        "color": "white"
+      }
+    },
+    "AMER": {
+      "classifierName": "Pre-Columbian Americas",
+      "color": "Orange",
+      "font": {
+        "color": "black"
+      }
+    },
+    "BRIDGE": {
+      "classifierName": "Eve of Integration",
+      "color": "DimGray",
+      "font": {
+        "color": "white"
+      }
+    }
+  },
+  "nodes": [
+    {
+      "id": 1,
+      "label": "Big Era Framework",
+      "group": "METH",
+      "shape": "box"
+    },
+    {
+      "id": 2,
+      "label": "Three Thematic Axes",
+      "group": "THEME"
+    },
+    {
+      "id": 3,
+      "label": "Humans And Environment Theme",
+      "group": "THEME"
+    },
+    {
+      "id": 4,
+      "label": "Humans And Other Humans Theme",
+      "group": "THEME"
+    },
+    {
+      "id": 5,
+      "label": "Humans And Ideas Theme",
+      "group": "THEME"
+    },
+    {
+      "id": 6,
+      "label": "AHA Tuning Competencies",
+      "group": "METH"
+    },
+    {
+      "id": 7,
+      "label": "Chronological Reasoning",
+      "group": "METH"
+    },
+    {
+      "id": 8,
+      "label": "Contextualization",
+      "group": "METH"
+    },
+    {
+      "id": 9,
+      "label": "Historical Argumentation",
+      "group": "METH"
+    },
+    {
+      "id": 10,
+      "label": "Historical Synthesis",
+      "group": "METH"
+    },
+    {
+      "id": 11,
+      "label": "Research Information Literacy",
+      "group": "METH"
+    },
+    {
+      "id": 12,
+      "label": "Historical Communication",
+      "group": "METH"
+    },
+    {
+      "id": 13,
+      "label": "Periodization",
+      "group": "METH"
+    },
+    {
+      "id": 14,
+      "label": "Causation In History",
+      "group": "METH"
+    },
+    {
+      "id": 15,
+      "label": "Primary Source Analysis",
+      "group": "METH"
+    },
+    {
+      "id": 16,
+      "label": "Secondary Source Analysis",
+      "group": "METH"
+    },
+    {
+      "id": 17,
+      "label": "Historical Bias Detection",
+      "group": "METH"
+    },
+    {
+      "id": 18,
+      "label": "Comparative History Method",
+      "group": "METH"
+    },
+    {
+      "id": 19,
+      "label": "Systems Thinking In History",
+      "group": "METH"
+    },
+    {
+      "id": 20,
+      "label": "Historiography",
+      "group": "METH"
+    },
+    {
+      "id": 21,
+      "label": "Big Bang",
+      "group": "COSMIC",
+      "shape": "box"
+    },
+    {
+      "id": 22,
+      "label": "Cosmic Inflation",
+      "group": "COSMIC"
+    },
+    {
+      "id": 23,
+      "label": "Stellar Nucleosynthesis",
+      "group": "COSMIC"
+    },
+    {
+      "id": 24,
+      "label": "Formation Of Galaxies",
+      "group": "COSMIC"
+    },
+    {
+      "id": 25,
+      "label": "Formation Of Solar System",
+      "group": "COSMIC"
+    },
+    {
+      "id": 26,
+      "label": "Formation Of Earth",
+      "group": "COSMIC"
+    },
+    {
+      "id": 27,
+      "label": "Geological Time Scale",
+      "group": "COSMIC"
+    },
+    {
+      "id": 28,
+      "label": "Origin Of Life",
+      "group": "COSMIC"
+    },
+    {
+      "id": 29,
+      "label": "Single-Celled Organisms",
+      "group": "COSMIC"
+    },
+    {
+      "id": 30,
+      "label": "Photosynthesis Evolution",
+      "group": "COSMIC"
+    },
+    {
+      "id": 31,
+      "label": "Cambrian Explosion",
+      "group": "COSMIC"
+    },
+    {
+      "id": 32,
+      "label": "Mass Extinction Events",
+      "group": "COSMIC"
+    },
+    {
+      "id": 33,
+      "label": "Mammalian Radiation",
+      "group": "HOMIN"
+    },
+    {
+      "id": 34,
+      "label": "Primate Evolution",
+      "group": "HOMIN"
+    },
+    {
+      "id": 35,
+      "label": "Hominin Evolution",
+      "group": "HOMIN"
+    },
+    {
+      "id": 36,
+      "label": "Bipedalism",
+      "group": "HOMIN"
+    },
+    {
+      "id": 37,
+      "label": "Australopithecus",
+      "group": "HOMIN"
+    },
+    {
+      "id": 38,
+      "label": "Homo Habilis",
+      "group": "HOMIN"
+    },
+    {
+      "id": 39,
+      "label": "Homo Erectus",
+      "group": "HOMIN"
+    },
+    {
+      "id": 40,
+      "label": "Stone Tool Technology",
+      "group": "HOMIN"
+    },
+    {
+      "id": 41,
+      "label": "Control Of Fire",
+      "group": "HOMIN"
+    },
+    {
+      "id": 42,
+      "label": "Homo Sapiens Emergence",
+      "group": "HOMIN"
+    },
+    {
+      "id": 43,
+      "label": "Cognitive Revolution",
+      "group": "HOMIN"
+    },
+    {
+      "id": 44,
+      "label": "Symbolic Thought",
+      "group": "HOMIN"
+    },
+    {
+      "id": 45,
+      "label": "Paleolithic Period",
+      "group": "PALEO"
+    },
+    {
+      "id": 46,
+      "label": "Hunter-Gatherer Societies",
+      "group": "PALEO"
+    },
+    {
+      "id": 47,
+      "label": "Band-Level Organization",
+      "group": "PALEO"
+    },
+    {
+      "id": 48,
+      "label": "Out Of Africa Migration",
+      "group": "PALEO"
+    },
+    {
+      "id": 49,
+      "label": "Peopling Of Eurasia",
+      "group": "PALEO"
+    },
+    {
+      "id": 50,
+      "label": "Peopling Of Australia",
+      "group": "PALEO"
+    },
+    {
+      "id": 51,
+      "label": "Peopling Of Americas",
+      "group": "PALEO"
+    },
+    {
+      "id": 52,
+      "label": "Bering Land Bridge",
+      "group": "PALEO"
+    },
+    {
+      "id": 53,
+      "label": "Ice Age Climate",
+      "group": "PALEO"
+    },
+    {
+      "id": 54,
+      "label": "Last Glacial Maximum",
+      "group": "PALEO"
+    },
+    {
+      "id": 55,
+      "label": "Megafauna Extinctions",
+      "group": "PALEO"
+    },
+    {
+      "id": 56,
+      "label": "Cave Art",
+      "group": "PALEO"
+    },
+    {
+      "id": 57,
+      "label": "Venus Figurines",
+      "group": "PALEO"
+    },
+    {
+      "id": 58,
+      "label": "Burial Practices",
+      "group": "PALEO"
+    },
+    {
+      "id": 59,
+      "label": "Animism",
+      "group": "PALEO"
+    },
+    {
+      "id": 60,
+      "label": "Language Evolution",
+      "group": "PALEO"
+    },
+    {
+      "id": 61,
+      "label": "Stone Age Toolkits",
+      "group": "PALEO"
+    },
+    {
+      "id": 62,
+      "label": "Mesolithic Period",
+      "group": "PALEO"
+    },
+    {
+      "id": 63,
+      "label": "Neanderthals",
+      "group": "PALEO"
+    },
+    {
+      "id": 64,
+      "label": "Denisovans",
+      "group": "PALEO"
+    },
+    {
+      "id": 65,
+      "label": "Sapiens-Neanderthal Contact",
+      "group": "PALEO"
+    },
+    {
+      "id": 66,
+      "label": "Microliths",
+      "group": "PALEO"
+    },
+    {
+      "id": 67,
+      "label": "Coastal Migration Routes",
+      "group": "PALEO"
+    },
+    {
+      "id": 68,
+      "label": "Ethnographic Analogy",
+      "group": "PALEO"
+    },
+    {
+      "id": 69,
+      "label": "Foraging Lifeways",
+      "group": "PALEO"
+    },
+    {
+      "id": 70,
+      "label": "Gender In Foraging Bands",
+      "group": "PALEO"
+    },
+    {
+      "id": 71,
+      "label": "Neolithic Revolution",
+      "group": "NEO"
+    },
+    {
+      "id": 72,
+      "label": "Plant Domestication",
+      "group": "NEO"
+    },
+    {
+      "id": 73,
+      "label": "Animal Domestication",
+      "group": "NEO"
+    },
+    {
+      "id": 74,
+      "label": "Fertile Crescent",
+      "group": "NEO"
+    },
+    {
+      "id": 75,
+      "label": "Wheat And Barley Origins",
+      "group": "NEO"
+    },
+    {
+      "id": 76,
+      "label": "Rice Domestication",
+      "group": "NEO"
+    },
+    {
+      "id": 77,
+      "label": "Maize Domestication",
+      "group": "NEO"
+    },
+    {
+      "id": 78,
+      "label": "Sedentism",
+      "group": "NEO"
+    },
+    {
+      "id": 79,
+      "label": "Agricultural Villages",
+      "group": "NEO"
+    },
+    {
+      "id": 80,
+      "label": "Catalhoyuk",
+      "group": "NEO"
+    },
+    {
+      "id": 81,
+      "label": "Jericho",
+      "group": "NEO"
+    },
+    {
+      "id": 82,
+      "label": "Pottery Origins",
+      "group": "NEO"
+    },
+    {
+      "id": 83,
+      "label": "Neolithic Population Growth",
+      "group": "NEO"
+    },
+    {
+      "id": 84,
+      "label": "Social Stratification",
+      "group": "NEO"
+    },
+    {
+      "id": 85,
+      "label": "Surplus Food Production",
+      "group": "NEO"
+    },
+    {
+      "id": 86,
+      "label": "Bronze Age",
+      "group": "BRONZE"
+    },
+    {
+      "id": 87,
+      "label": "Metallurgy Origins",
+      "group": "BRONZE"
+    },
+    {
+      "id": 88,
+      "label": "Urban Revolution",
+      "group": "BRONZE"
+    },
+    {
+      "id": 89,
+      "label": "Writing Systems",
+      "group": "BRONZE"
+    },
+    {
+      "id": 90,
+      "label": "Cuneiform",
+      "group": "BRONZE"
+    },
+    {
+      "id": 91,
+      "label": "Hieroglyphics",
+      "group": "BRONZE"
+    },
+    {
+      "id": 92,
+      "label": "Indus Script",
+      "group": "BRONZE"
+    },
+    {
+      "id": 93,
+      "label": "Oracle Bone Script",
+      "group": "BRONZE"
+    },
+    {
+      "id": 94,
+      "label": "Mesopotamian Civilization",
+      "group": "BRONZE"
+    },
+    {
+      "id": 95,
+      "label": "Sumer",
+      "group": "BRONZE"
+    },
+    {
+      "id": 96,
+      "label": "Akkadian Empire",
+      "group": "BRONZE"
+    },
+    {
+      "id": 97,
+      "label": "Babylonia",
+      "group": "BRONZE"
+    },
+    {
+      "id": 98,
+      "label": "Hammurabi Code",
+      "group": "BRONZE"
+    },
+    {
+      "id": 99,
+      "label": "Egyptian Civilization",
+      "group": "BRONZE"
+    },
+    {
+      "id": 100,
+      "label": "Old Kingdom Egypt",
+      "group": "BRONZE"
+    },
+    {
+      "id": 101,
+      "label": "Middle Kingdom Egypt",
+      "group": "BRONZE"
+    },
+    {
+      "id": 102,
+      "label": "New Kingdom Egypt",
+      "group": "BRONZE"
+    },
+    {
+      "id": 103,
+      "label": "Pharaoh Kingship",
+      "group": "BRONZE"
+    },
+    {
+      "id": 104,
+      "label": "Egyptian Religion",
+      "group": "BRONZE"
+    },
+    {
+      "id": 105,
+      "label": "Pyramid Construction",
+      "group": "BRONZE"
+    },
+    {
+      "id": 106,
+      "label": "Indus Valley Civilization",
+      "group": "BRONZE"
+    },
+    {
+      "id": 107,
+      "label": "Harappa And Mohenjo-Daro",
+      "group": "BRONZE"
+    },
+    {
+      "id": 108,
+      "label": "Yellow River Civilization",
+      "group": "BRONZE"
+    },
+    {
+      "id": 109,
+      "label": "Shang Dynasty",
+      "group": "BRONZE"
+    },
+    {
+      "id": 110,
+      "label": "Zhou Dynasty",
+      "group": "BRONZE"
+    },
+    {
+      "id": 111,
+      "label": "Mandate Of Heaven",
+      "group": "BRONZE"
+    },
+    {
+      "id": 112,
+      "label": "Olmec Civilization",
+      "group": "AMER"
+    },
+    {
+      "id": 113,
+      "label": "Mesoamerican Origins",
+      "group": "AMER"
+    },
+    {
+      "id": 114,
+      "label": "Primary Vs Secondary Civ",
+      "group": "BRONZE"
+    },
+    {
+      "id": 115,
+      "label": "Late Bronze Age System",
+      "group": "BRONZE"
+    },
+    {
+      "id": 116,
+      "label": "Hittite Empire",
+      "group": "BRONZE"
+    },
+    {
+      "id": 117,
+      "label": "Minoan Civilization",
+      "group": "BRONZE"
+    },
+    {
+      "id": 118,
+      "label": "Mycenaean Civilization",
+      "group": "BRONZE"
+    },
+    {
+      "id": 119,
+      "label": "Phoenicians",
+      "group": "BRONZE"
+    },
+    {
+      "id": 120,
+      "label": "Phoenician Alphabet",
+      "group": "BRONZE"
+    },
+    {
+      "id": 121,
+      "label": "Hebrew Tribes Origins",
+      "group": "BRONZE"
+    },
+    {
+      "id": 122,
+      "label": "Late Bronze Age Collapse",
+      "group": "BRONZE"
+    },
+    {
+      "id": 123,
+      "label": "Iron Age Transition",
+      "group": "BRONZE"
+    },
+    {
+      "id": 124,
+      "label": "Iron Age",
+      "group": "CLASS"
+    },
+    {
+      "id": 125,
+      "label": "Iron Metallurgy",
+      "group": "CLASS"
+    },
+    {
+      "id": 126,
+      "label": "Greek Polis",
+      "group": "CLASS"
+    },
+    {
+      "id": 127,
+      "label": "Athenian Democracy",
+      "group": "CLASS"
+    },
+    {
+      "id": 128,
+      "label": "Spartan Society",
+      "group": "CLASS"
+    },
+    {
+      "id": 129,
+      "label": "Persian Wars",
+      "group": "CLASS"
+    },
+    {
+      "id": 130,
+      "label": "Achaemenid Empire",
+      "group": "CLASS"
+    },
+    {
+      "id": 131,
+      "label": "Cyrus The Great",
+      "group": "CLASS"
+    },
+    {
+      "id": 132,
+      "label": "Darius And Royal Road",
+      "group": "CLASS"
+    },
+    {
+      "id": 133,
+      "label": "Zoroastrianism",
+      "group": "CLASS"
+    },
+    {
+      "id": 134,
+      "label": "Peloponnesian War",
+      "group": "CLASS"
+    },
+    {
+      "id": 135,
+      "label": "Alexander The Great",
+      "group": "CLASS"
+    },
+    {
+      "id": 136,
+      "label": "Hellenistic World",
+      "group": "CLASS"
+    },
+    {
+      "id": 137,
+      "label": "Ptolemaic Egypt",
+      "group": "CLASS"
+    },
+    {
+      "id": 138,
+      "label": "Seleucid Empire",
+      "group": "CLASS"
+    },
+    {
+      "id": 139,
+      "label": "Library Of Alexandria",
+      "group": "CLASS"
+    },
+    {
+      "id": 140,
+      "label": "Roman Republic",
+      "group": "CLASS"
+    },
+    {
+      "id": 141,
+      "label": "Punic Wars",
+      "group": "CLASS"
+    },
+    {
+      "id": 142,
+      "label": "Roman Empire",
+      "group": "CLASS"
+    },
+    {
+      "id": 143,
+      "label": "Pax Romana",
+      "group": "CLASS"
+    },
+    {
+      "id": 144,
+      "label": "Roman Law",
+      "group": "CLASS"
+    },
+    {
+      "id": 145,
+      "label": "Roman Engineering",
+      "group": "CLASS"
+    },
+    {
+      "id": 146,
+      "label": "Augustus And Principate",
+      "group": "CLASS"
+    },
+    {
+      "id": 147,
+      "label": "Christianity Origins",
+      "group": "AXIAL"
+    },
+    {
+      "id": 148,
+      "label": "Jesus Of Nazareth",
+      "group": "AXIAL"
+    },
+    {
+      "id": 149,
+      "label": "Pauline Mission",
+      "group": "AXIAL"
+    },
+    {
+      "id": 150,
+      "label": "Diocletian Reforms",
+      "group": "CLASS"
+    },
+    {
+      "id": 151,
+      "label": "Constantine Conversion",
+      "group": "CLASS"
+    },
+    {
+      "id": 152,
+      "label": "Crisis Of Third Century",
+      "group": "CLASS"
+    },
+    {
+      "id": 153,
+      "label": "Qin Dynasty",
+      "group": "CLASS"
+    },
+    {
+      "id": 154,
+      "label": "Han Dynasty",
+      "group": "CLASS"
+    },
+    {
+      "id": 155,
+      "label": "Confucianism",
+      "group": "AXIAL"
+    },
+    {
+      "id": 156,
+      "label": "Daoism",
+      "group": "AXIAL"
+    },
+    {
+      "id": 157,
+      "label": "Legalism",
+      "group": "AXIAL"
+    },
+    {
+      "id": 158,
+      "label": "Silk Road Origins",
+      "group": "CLASS"
+    },
+    {
+      "id": 159,
+      "label": "Maurya Empire",
+      "group": "CLASS"
+    },
+    {
+      "id": 160,
+      "label": "Ashoka",
+      "group": "AXIAL"
+    },
+    {
+      "id": 161,
+      "label": "Buddhism Origins",
+      "group": "AXIAL"
+    },
+    {
+      "id": 162,
+      "label": "Gautama Buddha",
+      "group": "AXIAL"
+    },
+    {
+      "id": 163,
+      "label": "Vedic Religion",
+      "group": "AXIAL"
+    },
+    {
+      "id": 164,
+      "label": "Upanishads",
+      "group": "AXIAL"
+    },
+    {
+      "id": 165,
+      "label": "Hindu Synthesis",
+      "group": "AXIAL"
+    },
+    {
+      "id": 166,
+      "label": "Caste System",
+      "group": "AXIAL"
+    },
+    {
+      "id": 167,
+      "label": "Gupta Empire",
+      "group": "CLASS"
+    },
+    {
+      "id": 168,
+      "label": "Sanskrit Literature",
+      "group": "CLASS"
+    },
+    {
+      "id": 169,
+      "label": "Indian Mathematics",
+      "group": "CLASS"
+    },
+    {
+      "id": 170,
+      "label": "Parthian Empire",
+      "group": "CLASS"
+    },
+    {
+      "id": 171,
+      "label": "Sasanian Empire",
+      "group": "CLASS"
+    },
+    {
+      "id": 172,
+      "label": "Axial Age",
+      "group": "AXIAL"
+    },
+    {
+      "id": 173,
+      "label": "Greek Philosophy",
+      "group": "AXIAL"
+    },
+    {
+      "id": 174,
+      "label": "Socrates",
+      "group": "AXIAL"
+    },
+    {
+      "id": 175,
+      "label": "Plato",
+      "group": "AXIAL"
+    },
+    {
+      "id": 176,
+      "label": "Aristotle",
+      "group": "AXIAL"
+    },
+    {
+      "id": 177,
+      "label": "Hebrew Monotheism",
+      "group": "AXIAL"
+    },
+    {
+      "id": 178,
+      "label": "Hebrew Prophets",
+      "group": "AXIAL"
+    },
+    {
+      "id": 179,
+      "label": "Second Temple Judaism",
+      "group": "AXIAL"
+    },
+    {
+      "id": 180,
+      "label": "Mahayana Buddhism",
+      "group": "AXIAL"
+    },
+    {
+      "id": 181,
+      "label": "Theravada Buddhism",
+      "group": "AXIAL"
+    },
+    {
+      "id": 182,
+      "label": "Early Spread Of Buddhism",
+      "group": "AXIAL"
+    },
+    {
+      "id": 183,
+      "label": "Roman-Indian Ocean Trade",
+      "group": "CLASS"
+    },
+    {
+      "id": 184,
+      "label": "Universal Religion Concept",
+      "group": "AXIAL"
+    },
+    {
+      "id": 185,
+      "label": "Imperial Bureaucracy",
+      "group": "CLASS"
+    },
+    {
+      "id": 186,
+      "label": "Tribute Systems",
+      "group": "CLASS"
+    },
+    {
+      "id": 187,
+      "label": "Frontier Strategy",
+      "group": "CLASS"
+    },
+    {
+      "id": 188,
+      "label": "Late Antiquity",
+      "group": "POSTC"
+    },
+    {
+      "id": 189,
+      "label": "Fall Of Western Rome",
+      "group": "POSTC"
+    },
+    {
+      "id": 190,
+      "label": "Byzantine Empire",
+      "group": "POSTC"
+    },
+    {
+      "id": 191,
+      "label": "Justinian",
+      "group": "POSTC"
+    },
+    {
+      "id": 192,
+      "label": "Hagia Sophia",
+      "group": "POSTC"
+    },
+    {
+      "id": 193,
+      "label": "Greek Fire",
+      "group": "POSTC"
+    },
+    {
+      "id": 194,
+      "label": "Byzantine Iconoclasm",
+      "group": "POSTC"
+    },
+    {
+      "id": 195,
+      "label": "Eastern Orthodox Church",
+      "group": "POSTC"
+    },
+    {
+      "id": 196,
+      "label": "Origins Of Islam",
+      "group": "ISLAM"
+    },
+    {
+      "id": 197,
+      "label": "Muhammad",
+      "group": "ISLAM"
+    },
+    {
+      "id": 198,
+      "label": "Quran",
+      "group": "ISLAM"
+    },
+    {
+      "id": 199,
+      "label": "Hijra",
+      "group": "ISLAM"
+    },
+    {
+      "id": 200,
+      "label": "Five Pillars Of Islam",
+      "group": "ISLAM"
+    },
+    {
+      "id": 201,
+      "label": "Sunni-Shia Split",
+      "group": "ISLAM"
+    },
+    {
+      "id": 202,
+      "label": "Rashidun Caliphate",
+      "group": "ISLAM"
+    },
+    {
+      "id": 203,
+      "label": "Umayyad Caliphate",
+      "group": "ISLAM"
+    },
+    {
+      "id": 204,
+      "label": "Abbasid Caliphate",
+      "group": "ISLAM"
+    },
+    {
+      "id": 205,
+      "label": "Baghdad House Of Wisdom",
+      "group": "ISLAM"
+    },
+    {
+      "id": 206,
+      "label": "Islamic Golden Age",
+      "group": "ISLAM"
+    },
+    {
+      "id": 207,
+      "label": "Dar Al-Islam",
+      "group": "ISLAM"
+    },
+    {
+      "id": 208,
+      "label": "Sufism",
+      "group": "ISLAM"
+    },
+    {
+      "id": 209,
+      "label": "Tang Dynasty",
+      "group": "POSTC"
+    },
+    {
+      "id": 210,
+      "label": "Tang Cosmopolitanism",
+      "group": "POSTC"
+    },
+    {
+      "id": 211,
+      "label": "Grand Canal Of China",
+      "group": "POSTC"
+    },
+    {
+      "id": 212,
+      "label": "Examination System",
+      "group": "POSTC"
+    },
+    {
+      "id": 213,
+      "label": "Buddhism In China",
+      "group": "POSTC"
+    },
+    {
+      "id": 214,
+      "label": "Chan Buddhism",
+      "group": "POSTC"
+    },
+    {
+      "id": 215,
+      "label": "Early Song Dynasty",
+      "group": "POSTC"
+    },
+    {
+      "id": 216,
+      "label": "Carolingian Empire",
+      "group": "POSTC"
+    },
+    {
+      "id": 217,
+      "label": "Charlemagne",
+      "group": "POSTC"
+    },
+    {
+      "id": 218,
+      "label": "Feudalism",
+      "group": "POSTC"
+    },
+    {
+      "id": 219,
+      "label": "Manorialism",
+      "group": "POSTC"
+    },
+    {
+      "id": 220,
+      "label": "Western Christendom",
+      "group": "POSTC"
+    },
+    {
+      "id": 221,
+      "label": "Papacy",
+      "group": "POSTC"
+    },
+    {
+      "id": 222,
+      "label": "Monasticism",
+      "group": "POSTC"
+    },
+    {
+      "id": 223,
+      "label": "Vikings",
+      "group": "POSTC"
+    },
+    {
+      "id": 224,
+      "label": "Kievan Rus",
+      "group": "POSTC"
+    },
+    {
+      "id": 225,
+      "label": "Trans-Saharan Trade",
+      "group": "POSTC"
+    },
+    {
+      "id": 226,
+      "label": "Ghana Empire",
+      "group": "POSTC"
+    },
+    {
+      "id": 227,
+      "label": "Bantu Migrations",
+      "group": "CLASS"
+    },
+    {
+      "id": 228,
+      "label": "Aksum",
+      "group": "POSTC"
+    },
+    {
+      "id": 229,
+      "label": "Indian Ocean Trade",
+      "group": "POSTC"
+    },
+    {
+      "id": 230,
+      "label": "Monsoon Trade Winds",
+      "group": "POSTC"
+    },
+    {
+      "id": 231,
+      "label": "Srivijaya",
+      "group": "POSTC"
+    },
+    {
+      "id": 232,
+      "label": "Chola Dynasty",
+      "group": "POSTC"
+    },
+    {
+      "id": 233,
+      "label": "Heian Japan",
+      "group": "POSTC"
+    },
+    {
+      "id": 234,
+      "label": "Tale Of Genji",
+      "group": "POSTC"
+    },
+    {
+      "id": 235,
+      "label": "Korean Three Kingdoms",
+      "group": "POSTC"
+    },
+    {
+      "id": 236,
+      "label": "Khmer Empire",
+      "group": "POSTC"
+    },
+    {
+      "id": 237,
+      "label": "Angkor Wat",
+      "group": "POSTC"
+    },
+    {
+      "id": 238,
+      "label": "Buddhism In East SE Asia",
+      "group": "POSTC"
+    },
+    {
+      "id": 239,
+      "label": "Classic Maya Civilization",
+      "group": "AMER"
+    },
+    {
+      "id": 240,
+      "label": "Maya Calendar",
+      "group": "AMER"
+    },
+    {
+      "id": 241,
+      "label": "Teotihuacan",
+      "group": "AMER"
+    },
+    {
+      "id": 242,
+      "label": "Toltec Civilization",
+      "group": "AMER"
+    },
+    {
+      "id": 243,
+      "label": "Polynesian Expansion",
+      "group": "POSTC"
+    },
+    {
+      "id": 244,
+      "label": "World In 1200 CE",
+      "group": "BRIDGE"
+    },
+    {
+      "id": 245,
+      "label": "Song Economic Revolution",
+      "group": "BRIDGE"
+    },
+    {
+      "id": 246,
+      "label": "Chinese Iron Industry",
+      "group": "BRIDGE"
+    },
+    {
+      "id": 247,
+      "label": "Paper Money Origins",
+      "group": "BRIDGE"
+    },
+    {
+      "id": 248,
+      "label": "Mature Dar Al-Islam",
+      "group": "BRIDGE"
+    },
+    {
+      "id": 249,
+      "label": "European Urban Revival",
+      "group": "BRIDGE"
+    },
+    {
+      "id": 250,
+      "label": "Three-Field System",
+      "group": "BRIDGE"
+    },
+    {
+      "id": 251,
+      "label": "High Medieval Universities",
+      "group": "BRIDGE"
+    },
+    {
+      "id": 252,
+      "label": "Indian Ocean Maturity",
+      "group": "BRIDGE"
+    },
+    {
+      "id": 253,
+      "label": "Pre-Mongol Eurasia",
+      "group": "BRIDGE"
+    },
+    {
+      "id": 254,
+      "label": "Eve Of Integration",
+      "group": "BRIDGE"
+    },
+    {
+      "id": 255,
+      "label": "Sahelanthropus",
+      "group": "HOMIN"
+    },
+    {
+      "id": 256,
+      "label": "Ardipithecus",
+      "group": "HOMIN"
+    },
+    {
+      "id": 257,
+      "label": "Paranthropus",
+      "group": "HOMIN"
+    },
+    {
+      "id": 258,
+      "label": "Homo Naledi",
+      "group": "HOMIN"
+    },
+    {
+      "id": 259,
+      "label": "Homo Floresiensis",
+      "group": "PALEO"
+    },
+    {
+      "id": 260,
+      "label": "Jebel Irhoud Finds",
+      "group": "HOMIN"
+    },
+    {
+      "id": 261,
+      "label": "Cave Painting",
+      "group": "PALEO"
+    },
+    {
+      "id": 262,
+      "label": "Pigment Technology",
+      "group": "PALEO"
+    },
+    {
+      "id": 263,
+      "label": "Hand Stencils",
+      "group": "PALEO"
+    },
+    {
+      "id": 264,
+      "label": "Lascaux Cave",
+      "group": "PALEO"
+    },
+    {
+      "id": 265,
+      "label": "Chauvet Cave",
+      "group": "PALEO"
+    },
+    {
+      "id": 266,
+      "label": "Sulawesi Cave Art",
+      "group": "PALEO"
+    },
+    {
+      "id": 267,
+      "label": "Lion-Man Sculpture",
+      "group": "PALEO"
+    },
+    {
+      "id": 268,
+      "label": "Blombos Engravings",
+      "group": "PALEO"
+    },
+    {
+      "id": 269,
+      "label": "G\u00f6bekli Tepe",
+      "group": "NEO"
+    },
+    {
+      "id": 270,
+      "label": "Karahan Tepe",
+      "group": "NEO"
+    },
+    {
+      "id": 271,
+      "label": "Tas Tepeler Complex",
+      "group": "NEO"
+    },
+    {
+      "id": 272,
+      "label": "Pre-Pottery Neolithic",
+      "group": "NEO"
+    },
+    {
+      "id": 273,
+      "label": "Misliya Cave",
+      "group": "PALEO"
+    },
+    {
+      "id": 274,
+      "label": "Madjedbebe Site",
+      "group": "PALEO"
+    },
+    {
+      "id": 275,
+      "label": "White Sands Footprints",
+      "group": "PALEO"
+    },
+    {
+      "id": 276,
+      "label": "Ancient DNA Revolution",
+      "group": "METH"
+    },
+    {
+      "id": 277,
+      "label": "Yamnaya Migration",
+      "group": "BRONZE"
+    },
+    {
+      "id": 278,
+      "label": "LIDAR Archaeology",
+      "group": "METH"
+    },
+    {
+      "id": 279,
+      "label": "Aguada Fenix",
+      "group": "AMER"
+    },
+    {
+      "id": 280,
+      "label": "Doggerland",
+      "group": "PALEO"
+    },
+    {
+      "id": 281,
+      "label": "Sundaland And Sahul",
+      "group": "PALEO"
+    },
+    {
+      "id": 282,
+      "label": "Lomekwi Stone Tools",
+      "group": "HOMIN"
+    },
+    {
+      "id": 283,
+      "label": "Igbo-Ukwu",
+      "group": "POSTC"
+    },
+    {
+      "id": 284,
+      "label": "Kilwa Kisiwani",
+      "group": "POSTC"
+    },
+    {
+      "id": 285,
+      "label": "Sanxingdui",
+      "group": "BRONZE"
+    },
+    {
+      "id": 286,
+      "label": "Liangzhu Culture",
+      "group": "NEO"
+    },
+    {
+      "id": 287,
+      "label": "Erlitou Site",
+      "group": "BRONZE"
+    },
+    {
+      "id": 288,
+      "label": "Caral-Supe Civilization",
+      "group": "AMER"
+    },
+    {
+      "id": 289,
+      "label": "Cahokia",
+      "group": "AMER"
+    },
+    {
+      "id": 290,
+      "label": "Chaco Canyon",
+      "group": "AMER"
+    },
+    {
+      "id": 291,
+      "label": "Stonehenge",
+      "group": "BRONZE"
+    },
+    {
+      "id": 292,
+      "label": "4.2 Ka Event",
+      "group": "BRONZE"
+    },
+    {
+      "id": 293,
+      "label": "Late Antique Little Ice Age",
+      "group": "POSTC"
+    },
+    {
+      "id": 294,
+      "label": "Justinianic Plague",
+      "group": "POSTC"
+    },
+    {
+      "id": 295,
+      "label": "Proto-Indo-European",
+      "group": "BRONZE"
+    },
+    {
+      "id": 296,
+      "label": "Steppe Pastoralism",
+      "group": "BRONZE"
+    },
+    {
+      "id": 297,
+      "label": "Antikythera Mechanism",
+      "group": "CLASS"
+    }
+  ],
+  "edges": [
+    {
+      "from": 2,
+      "to": 1
+    },
+    {
+      "from": 3,
+      "to": 2
+    },
+    {
+      "from": 4,
+      "to": 2
+    },
+    {
+      "from": 5,
+      "to": 2
+    },
+    {
+      "from": 6,
+      "to": 1
+    },
+    {
+      "from": 7,
+      "to": 6
+    },
+    {
+      "from": 8,
+      "to": 6
+    },
+    {
+      "from": 9,
+      "to": 6
+    },
+    {
+      "from": 10,
+      "to": 6
+    },
+    {
+      "from": 11,
+      "to": 6
+    },
+    {
+      "from": 12,
+      "to": 6
+    },
+    {
+      "from": 13,
+      "to": 7
+    },
+    {
+      "from": 14,
+      "to": 7
+    },
+    {
+      "from": 14,
+      "to": 8
+    },
+    {
+      "from": 15,
+      "to": 11
+    },
+    {
+      "from": 16,
+      "to": 11
+    },
+    {
+      "from": 17,
+      "to": 15
+    },
+    {
+      "from": 17,
+      "to": 16
+    },
+    {
+      "from": 18,
+      "to": 8
+    },
+    {
+      "from": 18,
+      "to": 9
+    },
+    {
+      "from": 19,
+      "to": 14
+    },
+    {
+      "from": 20,
+      "to": 16
+    },
+    {
+      "from": 20,
+      "to": 17
+    },
+    {
+      "from": 22,
+      "to": 21
+    },
+    {
+      "from": 23,
+      "to": 21
+    },
+    {
+      "from": 24,
+      "to": 22
+    },
+    {
+      "from": 24,
+      "to": 23
+    },
+    {
+      "from": 25,
+      "to": 23
+    },
+    {
+      "from": 25,
+      "to": 24
+    },
+    {
+      "from": 26,
+      "to": 25
+    },
+    {
+      "from": 27,
+      "to": 26
+    },
+    {
+      "from": 28,
+      "to": 26
+    },
+    {
+      "from": 28,
+      "to": 27
+    },
+    {
+      "from": 29,
+      "to": 28
+    },
+    {
+      "from": 30,
+      "to": 29
+    },
+    {
+      "from": 31,
+      "to": 30
+    },
+    {
+      "from": 32,
+      "to": 27
+    },
+    {
+      "from": 32,
+      "to": 31
+    },
+    {
+      "from": 33,
+      "to": 32
+    },
+    {
+      "from": 34,
+      "to": 33
+    },
+    {
+      "from": 35,
+      "to": 34
+    },
+    {
+      "from": 36,
+      "to": 35
+    },
+    {
+      "from": 37,
+      "to": 35
+    },
+    {
+      "from": 37,
+      "to": 36
+    },
+    {
+      "from": 38,
+      "to": 37
+    },
+    {
+      "from": 38,
+      "to": 282
+    },
+    {
+      "from": 39,
+      "to": 38
+    },
+    {
+      "from": 39,
+      "to": 40
+    },
+    {
+      "from": 40,
+      "to": 38
+    },
+    {
+      "from": 40,
+      "to": 282
+    },
+    {
+      "from": 41,
+      "to": 39
+    },
+    {
+      "from": 42,
+      "to": 39
+    },
+    {
+      "from": 43,
+      "to": 42
+    },
+    {
+      "from": 44,
+      "to": 43
+    },
+    {
+      "from": 45,
+      "to": 27
+    },
+    {
+      "from": 45,
+      "to": 40
+    },
+    {
+      "from": 46,
+      "to": 42
+    },
+    {
+      "from": 46,
+      "to": 45
+    },
+    {
+      "from": 47,
+      "to": 46
+    },
+    {
+      "from": 48,
+      "to": 42
+    },
+    {
+      "from": 48,
+      "to": 46
+    },
+    {
+      "from": 49,
+      "to": 48
+    },
+    {
+      "from": 50,
+      "to": 48
+    },
+    {
+      "from": 50,
+      "to": 281
+    },
+    {
+      "from": 51,
+      "to": 48
+    },
+    {
+      "from": 51,
+      "to": 52
+    },
+    {
+      "from": 52,
+      "to": 53
+    },
+    {
+      "from": 53,
+      "to": 27
+    },
+    {
+      "from": 54,
+      "to": 53
+    },
+    {
+      "from": 55,
+      "to": 51
+    },
+    {
+      "from": 55,
+      "to": 54
+    },
+    {
+      "from": 56,
+      "to": 44
+    },
+    {
+      "from": 56,
+      "to": 49
+    },
+    {
+      "from": 57,
+      "to": 44
+    },
+    {
+      "from": 57,
+      "to": 49
+    },
+    {
+      "from": 58,
+      "to": 44
+    },
+    {
+      "from": 58,
+      "to": 63
+    },
+    {
+      "from": 59,
+      "to": 44
+    },
+    {
+      "from": 60,
+      "to": 43
+    },
+    {
+      "from": 60,
+      "to": 44
+    },
+    {
+      "from": 61,
+      "to": 40
+    },
+    {
+      "from": 61,
+      "to": 45
+    },
+    {
+      "from": 62,
+      "to": 45
+    },
+    {
+      "from": 62,
+      "to": 53
+    },
+    {
+      "from": 63,
+      "to": 39
+    },
+    {
+      "from": 64,
+      "to": 39
+    },
+    {
+      "from": 65,
+      "to": 42
+    },
+    {
+      "from": 65,
+      "to": 63
+    },
+    {
+      "from": 65,
+      "to": 276
+    },
+    {
+      "from": 66,
+      "to": 61
+    },
+    {
+      "from": 66,
+      "to": 62
+    },
+    {
+      "from": 67,
+      "to": 48
+    },
+    {
+      "from": 68,
+      "to": 18
+    },
+    {
+      "from": 68,
+      "to": 46
+    },
+    {
+      "from": 69,
+      "to": 46
+    },
+    {
+      "from": 70,
+      "to": 47
+    },
+    {
+      "from": 70,
+      "to": 69
+    },
+    {
+      "from": 71,
+      "to": 53
+    },
+    {
+      "from": 71,
+      "to": 70
+    },
+    {
+      "from": 72,
+      "to": 71
+    },
+    {
+      "from": 73,
+      "to": 71
+    },
+    {
+      "from": 74,
+      "to": 72
+    },
+    {
+      "from": 74,
+      "to": 73
+    },
+    {
+      "from": 75,
+      "to": 74
+    },
+    {
+      "from": 76,
+      "to": 72
+    },
+    {
+      "from": 77,
+      "to": 72
+    },
+    {
+      "from": 78,
+      "to": 71
+    },
+    {
+      "from": 78,
+      "to": 75
+    },
+    {
+      "from": 79,
+      "to": 78
+    },
+    {
+      "from": 80,
+      "to": 79
+    },
+    {
+      "from": 81,
+      "to": 79
+    },
+    {
+      "from": 82,
+      "to": 79
+    },
+    {
+      "from": 83,
+      "to": 71
+    },
+    {
+      "from": 83,
+      "to": 78
+    },
+    {
+      "from": 84,
+      "to": 83
+    },
+    {
+      "from": 85,
+      "to": 71
+    },
+    {
+      "from": 85,
+      "to": 84
+    },
+    {
+      "from": 86,
+      "to": 87
+    },
+    {
+      "from": 86,
+      "to": 88
+    },
+    {
+      "from": 87,
+      "to": 84
+    },
+    {
+      "from": 87,
+      "to": 85
+    },
+    {
+      "from": 88,
+      "to": 84
+    },
+    {
+      "from": 88,
+      "to": 85
+    },
+    {
+      "from": 89,
+      "to": 88
+    },
+    {
+      "from": 90,
+      "to": 89
+    },
+    {
+      "from": 90,
+      "to": 95
+    },
+    {
+      "from": 91,
+      "to": 89
+    },
+    {
+      "from": 91,
+      "to": 99
+    },
+    {
+      "from": 92,
+      "to": 89
+    },
+    {
+      "from": 92,
+      "to": 106
+    },
+    {
+      "from": 93,
+      "to": 89
+    },
+    {
+      "from": 93,
+      "to": 109
+    },
+    {
+      "from": 94,
+      "to": 74
+    },
+    {
+      "from": 94,
+      "to": 88
+    },
+    {
+      "from": 95,
+      "to": 94
+    },
+    {
+      "from": 96,
+      "to": 95
+    },
+    {
+      "from": 97,
+      "to": 96
+    },
+    {
+      "from": 98,
+      "to": 97
+    },
+    {
+      "from": 98,
+      "to": 89
+    },
+    {
+      "from": 99,
+      "to": 88
+    },
+    {
+      "from": 100,
+      "to": 99
+    },
+    {
+      "from": 100,
+      "to": 105
+    },
+    {
+      "from": 101,
+      "to": 100
+    },
+    {
+      "from": 102,
+      "to": 101
+    },
+    {
+      "from": 103,
+      "to": 99
+    },
+    {
+      "from": 103,
+      "to": 100
+    },
+    {
+      "from": 104,
+      "to": 99
+    },
+    {
+      "from": 105,
+      "to": 99
+    },
+    {
+      "from": 105,
+      "to": 87
+    },
+    {
+      "from": 106,
+      "to": 88
+    },
+    {
+      "from": 107,
+      "to": 106
+    },
+    {
+      "from": 108,
+      "to": 88
+    },
+    {
+      "from": 109,
+      "to": 108
+    },
+    {
+      "from": 110,
+      "to": 109
+    },
+    {
+      "from": 111,
+      "to": 110
+    },
+    {
+      "from": 112,
+      "to": 88
+    },
+    {
+      "from": 112,
+      "to": 77
+    },
+    {
+      "from": 113,
+      "to": 77
+    },
+    {
+      "from": 114,
+      "to": 94
+    },
+    {
+      "from": 114,
+      "to": 99
+    },
+    {
+      "from": 114,
+      "to": 106
+    },
+    {
+      "from": 114,
+      "to": 108
+    },
+    {
+      "from": 114,
+      "to": 112
+    },
+    {
+      "from": 114,
+      "to": 18
+    },
+    {
+      "from": 115,
+      "to": 86
+    },
+    {
+      "from": 115,
+      "to": 99
+    },
+    {
+      "from": 115,
+      "to": 102
+    },
+    {
+      "from": 115,
+      "to": 116
+    },
+    {
+      "from": 116,
+      "to": 86
+    },
+    {
+      "from": 117,
+      "to": 86
+    },
+    {
+      "from": 118,
+      "to": 117
+    },
+    {
+      "from": 119,
+      "to": 86
+    },
+    {
+      "from": 120,
+      "to": 89
+    },
+    {
+      "from": 120,
+      "to": 119
+    },
+    {
+      "from": 121,
+      "to": 86
+    },
+    {
+      "from": 121,
+      "to": 102
+    },
+    {
+      "from": 122,
+      "to": 115
+    },
+    {
+      "from": 122,
+      "to": 19
+    },
+    {
+      "from": 123,
+      "to": 122
+    },
+    {
+      "from": 124,
+      "to": 123
+    },
+    {
+      "from": 124,
+      "to": 125
+    },
+    {
+      "from": 125,
+      "to": 87
+    },
+    {
+      "from": 125,
+      "to": 122
+    },
+    {
+      "from": 126,
+      "to": 118
+    },
+    {
+      "from": 126,
+      "to": 124
+    },
+    {
+      "from": 127,
+      "to": 126
+    },
+    {
+      "from": 128,
+      "to": 126
+    },
+    {
+      "from": 129,
+      "to": 127
+    },
+    {
+      "from": 129,
+      "to": 130
+    },
+    {
+      "from": 130,
+      "to": 124
+    },
+    {
+      "from": 130,
+      "to": 131
+    },
+    {
+      "from": 131,
+      "to": 124
+    },
+    {
+      "from": 132,
+      "to": 130
+    },
+    {
+      "from": 132,
+      "to": 131
+    },
+    {
+      "from": 133,
+      "to": 130
+    },
+    {
+      "from": 134,
+      "to": 127
+    },
+    {
+      "from": 134,
+      "to": 128
+    },
+    {
+      "from": 135,
+      "to": 130
+    },
+    {
+      "from": 135,
+      "to": 134
+    },
+    {
+      "from": 136,
+      "to": 135
+    },
+    {
+      "from": 137,
+      "to": 102
+    },
+    {
+      "from": 137,
+      "to": 136
+    },
+    {
+      "from": 138,
+      "to": 136
+    },
+    {
+      "from": 139,
+      "to": 137
+    },
+    {
+      "from": 140,
+      "to": 124
+    },
+    {
+      "from": 140,
+      "to": 119
+    },
+    {
+      "from": 141,
+      "to": 119
+    },
+    {
+      "from": 141,
+      "to": 140
+    },
+    {
+      "from": 142,
+      "to": 140
+    },
+    {
+      "from": 142,
+      "to": 146
+    },
+    {
+      "from": 143,
+      "to": 142
+    },
+    {
+      "from": 143,
+      "to": 146
+    },
+    {
+      "from": 144,
+      "to": 140
+    },
+    {
+      "from": 145,
+      "to": 142
+    },
+    {
+      "from": 146,
+      "to": 140
+    },
+    {
+      "from": 147,
+      "to": 142
+    },
+    {
+      "from": 147,
+      "to": 148
+    },
+    {
+      "from": 147,
+      "to": 179
+    },
+    {
+      "from": 148,
+      "to": 179
+    },
+    {
+      "from": 149,
+      "to": 147
+    },
+    {
+      "from": 150,
+      "to": 142
+    },
+    {
+      "from": 150,
+      "to": 152
+    },
+    {
+      "from": 151,
+      "to": 150
+    },
+    {
+      "from": 151,
+      "to": 147
+    },
+    {
+      "from": 152,
+      "to": 142
+    },
+    {
+      "from": 153,
+      "to": 110
+    },
+    {
+      "from": 153,
+      "to": 157
+    },
+    {
+      "from": 154,
+      "to": 153
+    },
+    {
+      "from": 155,
+      "to": 110
+    },
+    {
+      "from": 155,
+      "to": 172
+    },
+    {
+      "from": 156,
+      "to": 110
+    },
+    {
+      "from": 156,
+      "to": 172
+    },
+    {
+      "from": 157,
+      "to": 110
+    },
+    {
+      "from": 157,
+      "to": 172
+    },
+    {
+      "from": 158,
+      "to": 130
+    },
+    {
+      "from": 158,
+      "to": 154
+    },
+    {
+      "from": 159,
+      "to": 124
+    },
+    {
+      "from": 160,
+      "to": 159
+    },
+    {
+      "from": 160,
+      "to": 161
+    },
+    {
+      "from": 161,
+      "to": 162
+    },
+    {
+      "from": 161,
+      "to": 163
+    },
+    {
+      "from": 161,
+      "to": 164
+    },
+    {
+      "from": 161,
+      "to": 172
+    },
+    {
+      "from": 162,
+      "to": 163
+    },
+    {
+      "from": 162,
+      "to": 164
+    },
+    {
+      "from": 163,
+      "to": 124
+    },
+    {
+      "from": 164,
+      "to": 163
+    },
+    {
+      "from": 164,
+      "to": 172
+    },
+    {
+      "from": 165,
+      "to": 163
+    },
+    {
+      "from": 165,
+      "to": 167
+    },
+    {
+      "from": 166,
+      "to": 163
+    },
+    {
+      "from": 167,
+      "to": 159
+    },
+    {
+      "from": 168,
+      "to": 163
+    },
+    {
+      "from": 168,
+      "to": 167
+    },
+    {
+      "from": 168,
+      "to": 295
+    },
+    {
+      "from": 169,
+      "to": 167
+    },
+    {
+      "from": 170,
+      "to": 130
+    },
+    {
+      "from": 170,
+      "to": 138
+    },
+    {
+      "from": 171,
+      "to": 170
+    },
+    {
+      "from": 171,
+      "to": 133
+    },
+    {
+      "from": 172,
+      "to": 124
+    },
+    {
+      "from": 173,
+      "to": 126
+    },
+    {
+      "from": 173,
+      "to": 172
+    },
+    {
+      "from": 174,
+      "to": 173
+    },
+    {
+      "from": 175,
+      "to": 174
+    },
+    {
+      "from": 176,
+      "to": 175
+    },
+    {
+      "from": 177,
+      "to": 121
+    },
+    {
+      "from": 177,
+      "to": 172
+    },
+    {
+      "from": 178,
+      "to": 121
+    },
+    {
+      "from": 178,
+      "to": 177
+    },
+    {
+      "from": 179,
+      "to": 177
+    },
+    {
+      "from": 179,
+      "to": 178
+    },
+    {
+      "from": 180,
+      "to": 161
+    },
+    {
+      "from": 181,
+      "to": 161
+    },
+    {
+      "from": 182,
+      "to": 160
+    },
+    {
+      "from": 182,
+      "to": 161
+    },
+    {
+      "from": 182,
+      "to": 158
+    },
+    {
+      "from": 183,
+      "to": 142
+    },
+    {
+      "from": 183,
+      "to": 167
+    },
+    {
+      "from": 184,
+      "to": 147
+    },
+    {
+      "from": 184,
+      "to": 161
+    },
+    {
+      "from": 185,
+      "to": 142
+    },
+    {
+      "from": 185,
+      "to": 154
+    },
+    {
+      "from": 186,
+      "to": 130
+    },
+    {
+      "from": 186,
+      "to": 154
+    },
+    {
+      "from": 187,
+      "to": 142
+    },
+    {
+      "from": 187,
+      "to": 154
+    },
+    {
+      "from": 188,
+      "to": 152
+    },
+    {
+      "from": 188,
+      "to": 151
+    },
+    {
+      "from": 189,
+      "to": 188
+    },
+    {
+      "from": 190,
+      "to": 188
+    },
+    {
+      "from": 190,
+      "to": 189
+    },
+    {
+      "from": 191,
+      "to": 190
+    },
+    {
+      "from": 192,
+      "to": 191
+    },
+    {
+      "from": 193,
+      "to": 190
+    },
+    {
+      "from": 194,
+      "to": 190
+    },
+    {
+      "from": 194,
+      "to": 195
+    },
+    {
+      "from": 195,
+      "to": 190
+    },
+    {
+      "from": 195,
+      "to": 147
+    },
+    {
+      "from": 196,
+      "to": 197
+    },
+    {
+      "from": 196,
+      "to": 198
+    },
+    {
+      "from": 196,
+      "to": 177
+    },
+    {
+      "from": 197,
+      "to": 177
+    },
+    {
+      "from": 198,
+      "to": 197
+    },
+    {
+      "from": 199,
+      "to": 197
+    },
+    {
+      "from": 200,
+      "to": 196
+    },
+    {
+      "from": 200,
+      "to": 198
+    },
+    {
+      "from": 201,
+      "to": 196
+    },
+    {
+      "from": 201,
+      "to": 202
+    },
+    {
+      "from": 202,
+      "to": 199
+    },
+    {
+      "from": 202,
+      "to": 200
+    },
+    {
+      "from": 203,
+      "to": 202
+    },
+    {
+      "from": 203,
+      "to": 201
+    },
+    {
+      "from": 204,
+      "to": 203
+    },
+    {
+      "from": 205,
+      "to": 204
+    },
+    {
+      "from": 206,
+      "to": 204
+    },
+    {
+      "from": 206,
+      "to": 205
+    },
+    {
+      "from": 206,
+      "to": 169
+    },
+    {
+      "from": 207,
+      "to": 196
+    },
+    {
+      "from": 207,
+      "to": 204
+    },
+    {
+      "from": 208,
+      "to": 207
+    },
+    {
+      "from": 209,
+      "to": 154
+    },
+    {
+      "from": 210,
+      "to": 209
+    },
+    {
+      "from": 210,
+      "to": 158
+    },
+    {
+      "from": 211,
+      "to": 209
+    },
+    {
+      "from": 212,
+      "to": 155
+    },
+    {
+      "from": 212,
+      "to": 209
+    },
+    {
+      "from": 213,
+      "to": 154
+    },
+    {
+      "from": 213,
+      "to": 161
+    },
+    {
+      "from": 213,
+      "to": 182
+    },
+    {
+      "from": 214,
+      "to": 213
+    },
+    {
+      "from": 214,
+      "to": 156
+    },
+    {
+      "from": 215,
+      "to": 209
+    },
+    {
+      "from": 216,
+      "to": 217
+    },
+    {
+      "from": 217,
+      "to": 188
+    },
+    {
+      "from": 217,
+      "to": 220
+    },
+    {
+      "from": 218,
+      "to": 216
+    },
+    {
+      "from": 219,
+      "to": 216
+    },
+    {
+      "from": 220,
+      "to": 147
+    },
+    {
+      "from": 220,
+      "to": 151
+    },
+    {
+      "from": 220,
+      "to": 188
+    },
+    {
+      "from": 221,
+      "to": 147
+    },
+    {
+      "from": 221,
+      "to": 220
+    },
+    {
+      "from": 222,
+      "to": 147
+    },
+    {
+      "from": 222,
+      "to": 220
+    },
+    {
+      "from": 223,
+      "to": 216
+    },
+    {
+      "from": 224,
+      "to": 223
+    },
+    {
+      "from": 224,
+      "to": 195
+    },
+    {
+      "from": 225,
+      "to": 73
+    },
+    {
+      "from": 225,
+      "to": 207
+    },
+    {
+      "from": 226,
+      "to": 225
+    },
+    {
+      "from": 226,
+      "to": 87
+    },
+    {
+      "from": 227,
+      "to": 73
+    },
+    {
+      "from": 227,
+      "to": 87
+    },
+    {
+      "from": 228,
+      "to": 227
+    },
+    {
+      "from": 228,
+      "to": 147
+    },
+    {
+      "from": 229,
+      "to": 167
+    },
+    {
+      "from": 229,
+      "to": 207
+    },
+    {
+      "from": 229,
+      "to": 230
+    },
+    {
+      "from": 230,
+      "to": 27
+    },
+    {
+      "from": 230,
+      "to": 53
+    },
+    {
+      "from": 231,
+      "to": 229
+    },
+    {
+      "from": 231,
+      "to": 213
+    },
+    {
+      "from": 232,
+      "to": 167
+    },
+    {
+      "from": 232,
+      "to": 229
+    },
+    {
+      "from": 233,
+      "to": 213
+    },
+    {
+      "from": 233,
+      "to": 235
+    },
+    {
+      "from": 234,
+      "to": 233
+    },
+    {
+      "from": 235,
+      "to": 213
+    },
+    {
+      "from": 235,
+      "to": 154
+    },
+    {
+      "from": 236,
+      "to": 165
+    },
+    {
+      "from": 236,
+      "to": 213
+    },
+    {
+      "from": 237,
+      "to": 236
+    },
+    {
+      "from": 238,
+      "to": 213
+    },
+    {
+      "from": 238,
+      "to": 233
+    },
+    {
+      "from": 238,
+      "to": 235
+    },
+    {
+      "from": 238,
+      "to": 236
+    },
+    {
+      "from": 239,
+      "to": 112
+    },
+    {
+      "from": 239,
+      "to": 113
+    },
+    {
+      "from": 239,
+      "to": 240
+    },
+    {
+      "from": 240,
+      "to": 89
+    },
+    {
+      "from": 240,
+      "to": 112
+    },
+    {
+      "from": 241,
+      "to": 113
+    },
+    {
+      "from": 241,
+      "to": 88
+    },
+    {
+      "from": 242,
+      "to": 241
+    },
+    {
+      "from": 242,
+      "to": 239
+    },
+    {
+      "from": 243,
+      "to": 50
+    },
+    {
+      "from": 244,
+      "to": 215
+    },
+    {
+      "from": 244,
+      "to": 207
+    },
+    {
+      "from": 244,
+      "to": 218
+    },
+    {
+      "from": 245,
+      "to": 215
+    },
+    {
+      "from": 246,
+      "to": 245
+    },
+    {
+      "from": 246,
+      "to": 125
+    },
+    {
+      "from": 247,
+      "to": 245
+    },
+    {
+      "from": 248,
+      "to": 207
+    },
+    {
+      "from": 248,
+      "to": 206
+    },
+    {
+      "from": 249,
+      "to": 250
+    },
+    {
+      "from": 249,
+      "to": 218
+    },
+    {
+      "from": 250,
+      "to": 218
+    },
+    {
+      "from": 251,
+      "to": 220
+    },
+    {
+      "from": 251,
+      "to": 222
+    },
+    {
+      "from": 251,
+      "to": 249
+    },
+    {
+      "from": 252,
+      "to": 229
+    },
+    {
+      "from": 252,
+      "to": 248
+    },
+    {
+      "from": 253,
+      "to": 244
+    },
+    {
+      "from": 253,
+      "to": 215
+    },
+    {
+      "from": 254,
+      "to": 244
+    },
+    {
+      "from": 254,
+      "to": 13
+    },
+    {
+      "from": 255,
+      "to": 35
+    },
+    {
+      "from": 255,
+      "to": 36
+    },
+    {
+      "from": 256,
+      "to": 35
+    },
+    {
+      "from": 256,
+      "to": 36
+    },
+    {
+      "from": 257,
+      "to": 37
+    },
+    {
+      "from": 258,
+      "to": 39
+    },
+    {
+      "from": 259,
+      "to": 39
+    },
+    {
+      "from": 260,
+      "to": 42
+    },
+    {
+      "from": 260,
+      "to": 13
+    },
+    {
+      "from": 261,
+      "to": 56
+    },
+    {
+      "from": 261,
+      "to": 262
+    },
+    {
+      "from": 262,
+      "to": 44
+    },
+    {
+      "from": 262,
+      "to": 56
+    },
+    {
+      "from": 263,
+      "to": 261
+    },
+    {
+      "from": 264,
+      "to": 261
+    },
+    {
+      "from": 265,
+      "to": 261
+    },
+    {
+      "from": 266,
+      "to": 261
+    },
+    {
+      "from": 266,
+      "to": 50
+    },
+    {
+      "from": 267,
+      "to": 44
+    },
+    {
+      "from": 267,
+      "to": 57
+    },
+    {
+      "from": 268,
+      "to": 44
+    },
+    {
+      "from": 268,
+      "to": 48
+    },
+    {
+      "from": 269,
+      "to": 272
+    },
+    {
+      "from": 269,
+      "to": 46
+    },
+    {
+      "from": 270,
+      "to": 269
+    },
+    {
+      "from": 271,
+      "to": 269
+    },
+    {
+      "from": 271,
+      "to": 270
+    },
+    {
+      "from": 272,
+      "to": 78
+    },
+    {
+      "from": 272,
+      "to": 70
+    },
+    {
+      "from": 273,
+      "to": 42
+    },
+    {
+      "from": 273,
+      "to": 48
+    },
+    {
+      "from": 274,
+      "to": 50
+    },
+    {
+      "from": 275,
+      "to": 51
+    },
+    {
+      "from": 276,
+      "to": 16
+    },
+    {
+      "from": 276,
+      "to": 11
+    },
+    {
+      "from": 277,
+      "to": 86
+    },
+    {
+      "from": 277,
+      "to": 296
+    },
+    {
+      "from": 277,
+      "to": 276
+    },
+    {
+      "from": 278,
+      "to": 15
+    },
+    {
+      "from": 278,
+      "to": 11
+    },
+    {
+      "from": 279,
+      "to": 278
+    },
+    {
+      "from": 279,
+      "to": 113
+    },
+    {
+      "from": 280,
+      "to": 53
+    },
+    {
+      "from": 280,
+      "to": 62
+    },
+    {
+      "from": 281,
+      "to": 53
+    },
+    {
+      "from": 282,
+      "to": 36
+    },
+    {
+      "from": 283,
+      "to": 87
+    },
+    {
+      "from": 283,
+      "to": 227
+    },
+    {
+      "from": 284,
+      "to": 207
+    },
+    {
+      "from": 284,
+      "to": 229
+    },
+    {
+      "from": 284,
+      "to": 227
+    },
+    {
+      "from": 285,
+      "to": 87
+    },
+    {
+      "from": 285,
+      "to": 109
+    },
+    {
+      "from": 286,
+      "to": 71
+    },
+    {
+      "from": 286,
+      "to": 88
+    },
+    {
+      "from": 287,
+      "to": 88
+    },
+    {
+      "from": 287,
+      "to": 108
+    },
+    {
+      "from": 288,
+      "to": 88
+    },
+    {
+      "from": 288,
+      "to": 113
+    },
+    {
+      "from": 289,
+      "to": 77
+    },
+    {
+      "from": 289,
+      "to": 88
+    },
+    {
+      "from": 290,
+      "to": 77
+    },
+    {
+      "from": 290,
+      "to": 113
+    },
+    {
+      "from": 291,
+      "to": 78
+    },
+    {
+      "from": 291,
+      "to": 87
+    },
+    {
+      "from": 292,
+      "to": 53
+    },
+    {
+      "from": 292,
+      "to": 96
+    },
+    {
+      "from": 293,
+      "to": 188
+    },
+    {
+      "from": 293,
+      "to": 53
+    },
+    {
+      "from": 294,
+      "to": 191
+    },
+    {
+      "from": 294,
+      "to": 293
+    },
+    {
+      "from": 295,
+      "to": 277
+    },
+    {
+      "from": 296,
+      "to": 73
+    },
+    {
+      "from": 297,
+      "to": 136
+    },
+    {
+      "from": 297,
+      "to": 139
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Big Era Framework,,METH
+2,Three Thematic Axes,1,THEME
+3,Humans And Environment Theme,2,THEME
+4,Humans And Other Humans Theme,2,THEME
+5,Humans And Ideas Theme,2,THEME
+6,AHA Tuning Competencies,1,METH
+7,Chronological Reasoning,6,METH
+8,Contextualization,6,METH
+9,Historical Argumentation,6,METH
+10,Historical Synthesis,6,METH
+11,Research Information Literacy,6,METH
+12,Historical Communication,6,METH
+13,Periodization,7,METH
+14,Causation In History,7|8,METH
+15,Primary Source Analysis,11,METH
+16,Secondary Source Analysis,11,METH
+17,Historical Bias Detection,15|16,METH
+18,Comparative History Method,8|9,METH
+19,Systems Thinking In History,14,METH
+20,Historiography,16|17,METH
+21,Big Bang,,COSMIC
+22,Cosmic Inflation,21,COSMIC
+23,Stellar Nucleosynthesis,21,COSMIC
+24,Formation Of Galaxies,22|23,COSMIC
+25,Formation Of Solar System,23|24,COSMIC
+26,Formation Of Earth,25,COSMIC
+27,Geological Time Scale,26,COSMIC
+28,Origin Of Life,26|27,COSMIC
+29,Single-Celled Organisms,28,COSMIC
+30,Photosynthesis Evolution,29,COSMIC
+31,Cambrian Explosion,30,COSMIC
+32,Mass Extinction Events,27|31,COSMIC
+33,Mammalian Radiation,32,HOMIN
+34,Primate Evolution,33,HOMIN
+35,Hominin Evolution,34,HOMIN
+36,Bipedalism,35,HOMIN
+37,Australopithecus,35|36,HOMIN
+38,Homo Habilis,37|282,HOMIN
+39,Homo Erectus,38|40,HOMIN
+40,Stone Tool Technology,38|282,HOMIN
+41,Control Of Fire,39,HOMIN
+42,Homo Sapiens Emergence,39,HOMIN
+43,Cognitive Revolution,42,HOMIN
+44,Symbolic Thought,43,HOMIN
+45,Paleolithic Period,27|40,PALEO
+46,Hunter-Gatherer Societies,42|45,PALEO
+47,Band-Level Organization,46,PALEO
+48,Out Of Africa Migration,42|46,PALEO
+49,Peopling Of Eurasia,48,PALEO
+50,Peopling Of Australia,48|281,PALEO
+51,Peopling Of Americas,48|52,PALEO
+52,Bering Land Bridge,53,PALEO
+53,Ice Age Climate,27,PALEO
+54,Last Glacial Maximum,53,PALEO
+55,Megafauna Extinctions,51|54,PALEO
+56,Cave Art,44|49,PALEO
+57,Venus Figurines,44|49,PALEO
+58,Burial Practices,44|63,PALEO
+59,Animism,44,PALEO
+60,Language Evolution,43|44,PALEO
+61,Stone Age Toolkits,40|45,PALEO
+62,Mesolithic Period,45|53,PALEO
+63,Neanderthals,39,PALEO
+64,Denisovans,39,PALEO
+65,Sapiens-Neanderthal Contact,42|63|276,PALEO
+66,Microliths,61|62,PALEO
+67,Coastal Migration Routes,48,PALEO
+68,Ethnographic Analogy,18|46,PALEO
+69,Foraging Lifeways,46,PALEO
+70,Gender In Foraging Bands,47|69,PALEO
+71,Neolithic Revolution,53|70,NEO
+72,Plant Domestication,71,NEO
+73,Animal Domestication,71,NEO
+74,Fertile Crescent,72|73,NEO
+75,Wheat And Barley Origins,74,NEO
+76,Rice Domestication,72,NEO
+77,Maize Domestication,72,NEO
+78,Sedentism,71|75,NEO
+79,Agricultural Villages,78,NEO
+80,Catalhoyuk,79,NEO
+81,Jericho,79,NEO
+82,Pottery Origins,79,NEO
+83,Neolithic Population Growth,71|78,NEO
+84,Social Stratification,83,NEO
+85,Surplus Food Production,71|84,NEO
+86,Bronze Age,87|88,BRONZE
+87,Metallurgy Origins,84|85,BRONZE
+88,Urban Revolution,84|85,BRONZE
+89,Writing Systems,88,BRONZE
+90,Cuneiform,89|95,BRONZE
+91,Hieroglyphics,89|99,BRONZE
+92,Indus Script,89|106,BRONZE
+93,Oracle Bone Script,89|109,BRONZE
+94,Mesopotamian Civilization,74|88,BRONZE
+95,Sumer,94,BRONZE
+96,Akkadian Empire,95,BRONZE
+97,Babylonia,96,BRONZE
+98,Hammurabi Code,97|89,BRONZE
+99,Egyptian Civilization,88,BRONZE
+100,Old Kingdom Egypt,99|105,BRONZE
+101,Middle Kingdom Egypt,100,BRONZE
+102,New Kingdom Egypt,101,BRONZE
+103,Pharaoh Kingship,99|100,BRONZE
+104,Egyptian Religion,99,BRONZE
+105,Pyramid Construction,99|87,BRONZE
+106,Indus Valley Civilization,88,BRONZE
+107,Harappa And Mohenjo-Daro,106,BRONZE
+108,Yellow River Civilization,88,BRONZE
+109,Shang Dynasty,108,BRONZE
+110,Zhou Dynasty,109,BRONZE
+111,Mandate Of Heaven,110,BRONZE
+112,Olmec Civilization,88|77,AMER
+113,Mesoamerican Origins,77,AMER
+114,Primary Vs Secondary Civ,94|99|106|108|112|18,BRONZE
+115,Late Bronze Age System,86|99|102|116,BRONZE
+116,Hittite Empire,86,BRONZE
+117,Minoan Civilization,86,BRONZE
+118,Mycenaean Civilization,117,BRONZE
+119,Phoenicians,86,BRONZE
+120,Phoenician Alphabet,89|119,BRONZE
+121,Hebrew Tribes Origins,86|102,BRONZE
+122,Late Bronze Age Collapse,115|19,BRONZE
+123,Iron Age Transition,122,BRONZE
+124,Iron Age,123|125,CLASS
+125,Iron Metallurgy,87|122,CLASS
+126,Greek Polis,118|124,CLASS
+127,Athenian Democracy,126,CLASS
+128,Spartan Society,126,CLASS
+129,Persian Wars,127|130,CLASS
+130,Achaemenid Empire,124|131,CLASS
+131,Cyrus The Great,124,CLASS
+132,Darius And Royal Road,130|131,CLASS
+133,Zoroastrianism,130,CLASS
+134,Peloponnesian War,127|128,CLASS
+135,Alexander The Great,130|134,CLASS
+136,Hellenistic World,135,CLASS
+137,Ptolemaic Egypt,102|136,CLASS
+138,Seleucid Empire,136,CLASS
+139,Library Of Alexandria,137,CLASS
+140,Roman Republic,124|119,CLASS
+141,Punic Wars,119|140,CLASS
+142,Roman Empire,140|146,CLASS
+143,Pax Romana,142|146,CLASS
+144,Roman Law,140,CLASS
+145,Roman Engineering,142,CLASS
+146,Augustus And Principate,140,CLASS
+147,Christianity Origins,142|148|179,AXIAL
+148,Jesus Of Nazareth,179,AXIAL
+149,Pauline Mission,147,AXIAL
+150,Diocletian Reforms,142|152,CLASS
+151,Constantine Conversion,150|147,CLASS
+152,Crisis Of Third Century,142,CLASS
+153,Qin Dynasty,110|157,CLASS
+154,Han Dynasty,153,CLASS
+155,Confucianism,110|172,AXIAL
+156,Daoism,110|172,AXIAL
+157,Legalism,110|172,AXIAL
+158,Silk Road Origins,130|154,CLASS
+159,Maurya Empire,124,CLASS
+160,Ashoka,159|161,AXIAL
+161,Buddhism Origins,162|163|164|172,AXIAL
+162,Gautama Buddha,163|164,AXIAL
+163,Vedic Religion,124,AXIAL
+164,Upanishads,163|172,AXIAL
+165,Hindu Synthesis,163|167,AXIAL
+166,Caste System,163,AXIAL
+167,Gupta Empire,159,CLASS
+168,Sanskrit Literature,163|167|295,CLASS
+169,Indian Mathematics,167,CLASS
+170,Parthian Empire,130|138,CLASS
+171,Sasanian Empire,170|133,CLASS
+172,Axial Age,124,AXIAL
+173,Greek Philosophy,126|172,AXIAL
+174,Socrates,173,AXIAL
+175,Plato,174,AXIAL
+176,Aristotle,175,AXIAL
+177,Hebrew Monotheism,121|172,AXIAL
+178,Hebrew Prophets,121|177,AXIAL
+179,Second Temple Judaism,177|178,AXIAL
+180,Mahayana Buddhism,161,AXIAL
+181,Theravada Buddhism,161,AXIAL
+182,Early Spread Of Buddhism,160|161|158,AXIAL
+183,Roman-Indian Ocean Trade,142|167,CLASS
+184,Universal Religion Concept,147|161,AXIAL
+185,Imperial Bureaucracy,142|154,CLASS
+186,Tribute Systems,130|154,CLASS
+187,Frontier Strategy,142|154,CLASS
+188,Late Antiquity,152|151,POSTC
+189,Fall Of Western Rome,188,POSTC
+190,Byzantine Empire,188|189,POSTC
+191,Justinian,190,POSTC
+192,Hagia Sophia,191,POSTC
+193,Greek Fire,190,POSTC
+194,Byzantine Iconoclasm,190|195,POSTC
+195,Eastern Orthodox Church,190|147,POSTC
+196,Origins Of Islam,197|198|177,ISLAM
+197,Muhammad,177,ISLAM
+198,Quran,197,ISLAM
+199,Hijra,197,ISLAM
+200,Five Pillars Of Islam,196|198,ISLAM
+201,Sunni-Shia Split,196|202,ISLAM
+202,Rashidun Caliphate,199|200,ISLAM
+203,Umayyad Caliphate,202|201,ISLAM
+204,Abbasid Caliphate,203,ISLAM
+205,Baghdad House Of Wisdom,204,ISLAM
+206,Islamic Golden Age,204|205|169,ISLAM
+207,Dar Al-Islam,196|204,ISLAM
+208,Sufism,207,ISLAM
+209,Tang Dynasty,154,POSTC
+210,Tang Cosmopolitanism,209|158,POSTC
+211,Grand Canal Of China,209,POSTC
+212,Examination System,155|209,POSTC
+213,Buddhism In China,154|161|182,POSTC
+214,Chan Buddhism,213|156,POSTC
+215,Early Song Dynasty,209,POSTC
+216,Carolingian Empire,217,POSTC
+217,Charlemagne,188|220,POSTC
+218,Feudalism,216,POSTC
+219,Manorialism,216,POSTC
+220,Western Christendom,147|151|188,POSTC
+221,Papacy,147|220,POSTC
+222,Monasticism,147|220,POSTC
+223,Vikings,216,POSTC
+224,Kievan Rus,223|195,POSTC
+225,Trans-Saharan Trade,73|207,POSTC
+226,Ghana Empire,225|87,POSTC
+227,Bantu Migrations,73|87,CLASS
+228,Aksum,227|147,POSTC
+229,Indian Ocean Trade,167|207|230,POSTC
+230,Monsoon Trade Winds,27|53,POSTC
+231,Srivijaya,229|213,POSTC
+232,Chola Dynasty,167|229,POSTC
+233,Heian Japan,213|235,POSTC
+234,Tale Of Genji,233,POSTC
+235,Korean Three Kingdoms,213|154,POSTC
+236,Khmer Empire,165|213,POSTC
+237,Angkor Wat,236,POSTC
+238,Buddhism In East SE Asia,213|233|235|236,POSTC
+239,Classic Maya Civilization,112|113|240,AMER
+240,Maya Calendar,89|112,AMER
+241,Teotihuacan,113|88,AMER
+242,Toltec Civilization,241|239,AMER
+243,Polynesian Expansion,50,POSTC
+244,World In 1200 CE,215|207|218,BRIDGE
+245,Song Economic Revolution,215,BRIDGE
+246,Chinese Iron Industry,245|125,BRIDGE
+247,Paper Money Origins,245,BRIDGE
+248,Mature Dar Al-Islam,207|206,BRIDGE
+249,European Urban Revival,250|218,BRIDGE
+250,Three-Field System,218,BRIDGE
+251,High Medieval Universities,220|222|249,BRIDGE
+252,Indian Ocean Maturity,229|248,BRIDGE
+253,Pre-Mongol Eurasia,244|215,BRIDGE
+254,Eve Of Integration,244|13,BRIDGE
+255,Sahelanthropus,35|36,HOMIN
+256,Ardipithecus,35|36,HOMIN
+257,Paranthropus,37,HOMIN
+258,Homo Naledi,39,HOMIN
+259,Homo Floresiensis,39,PALEO
+260,Jebel Irhoud Finds,42|13,HOMIN
+261,Cave Painting,56|262,PALEO
+262,Pigment Technology,44|56,PALEO
+263,Hand Stencils,261,PALEO
+264,Lascaux Cave,261,PALEO
+265,Chauvet Cave,261,PALEO
+266,Sulawesi Cave Art,261|50,PALEO
+267,Lion-Man Sculpture,44|57,PALEO
+268,Blombos Engravings,44|48,PALEO
+269,Göbekli Tepe,272|46,NEO
+270,Karahan Tepe,269,NEO
+271,Tas Tepeler Complex,269|270,NEO
+272,Pre-Pottery Neolithic,78|70,NEO
+273,Misliya Cave,42|48,PALEO
+274,Madjedbebe Site,50,PALEO
+275,White Sands Footprints,51,PALEO
+276,Ancient DNA Revolution,16|11,METH
+277,Yamnaya Migration,86|296|276,BRONZE
+278,LIDAR Archaeology,15|11,METH
+279,Aguada Fenix,278|113,AMER
+280,Doggerland,53|62,PALEO
+281,Sundaland And Sahul,53,PALEO
+282,Lomekwi Stone Tools,36,HOMIN
+283,Igbo-Ukwu,87|227,POSTC
+284,Kilwa Kisiwani,207|229|227,POSTC
+285,Sanxingdui,87|109,BRONZE
+286,Liangzhu Culture,71|88,NEO
+287,Erlitou Site,88|108,BRONZE
+288,Caral-Supe Civilization,88|113,AMER
+289,Cahokia,77|88,AMER
+290,Chaco Canyon,77|113,AMER
+291,Stonehenge,78|87,BRONZE
+292,4.2 Ka Event,53|96,BRONZE
+293,Late Antique Little Ice Age,188|53,POSTC
+294,Justinianic Plague,191|293,POSTC
+295,Proto-Indo-European,277,BRONZE
+296,Steppe Pastoralism,73,BRONZE
+297,Antikythera Mechanism,136|139,CLASS
